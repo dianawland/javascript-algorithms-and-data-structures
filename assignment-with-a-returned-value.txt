@@ -1,0 +1,19 @@
+// Setup
+let processed = 2;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+// Only change code below this line
+processed = processArg(7); 
+
+
+
+
+///
+processed should have a value of 2
+Passed: You should assign processArg to processed
+//
+
+tambah berapa supaya menghaslkan angka 2 setelah di bagi 5 

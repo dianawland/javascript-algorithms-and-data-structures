@@ -1,0 +1,27 @@
+// Setup
+function testStrictNotEqual(val) {
+  if (val !==17) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testStrictNotEqual(10);
+
+//
+Examples
+
+3 !==  3  // false
+3 !== '3' // true
+4 !==  3  // true
+
+Add the strict inequality operator to the if statement so the function will return the string Not Equal when val is not strictly equal to 17
+Tests
+
+Passed: testStrictNotEqual(17) should return the string Equal
+Passed: testStrictNotEqual("17") should return the string Not Equal
+Passed: testStrictNotEqual(12) should return the string Not Equal
+Passed: testStrictNotEqual("bob") should return the string Not Equal
+Passed: You should use the !== operator
+
+//

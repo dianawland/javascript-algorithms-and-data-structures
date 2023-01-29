@@ -1,0 +1,26 @@
+// Setup
+function testEqual(val) {
+  if (val == 12 ) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testEqual(10);
+
+
+//
+1   ==  1  // true
+1   ==  2  // false
+1   == '1' // true
+"3" ==  3  // true
+
+Add the equality operator to the indicated line so that the function will return the string Equal when val is equivalent to 12.
+Tests
+
+Passed: testEqual(10) should return the string Not Equal
+Passed: testEqual(12) should return the string Equal
+Passed: testEqual("12") should return the string Equal
+Passed: You should use the == operator
+
+//
